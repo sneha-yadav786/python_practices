@@ -1,0 +1,7 @@
+nums1=[1,2,3,0,0,0]
+m,n=3,3
+nums2=[2,5,6]
+p=nums1.index(0)
+for i in range(len(nums2)):
+    nums1[m+i]=nums2[i]
+print(nums1)
