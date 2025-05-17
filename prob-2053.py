@@ -4,9 +4,10 @@ class Solution:
         l=[]
         freq=Counter(arr)
         for i in freq:
-            if freq.get(i)==1:
-                l.append(i)
-        if len(l)>=k:
-            return l[k-1]
-        else:
-            return c
+             if freq.get(i)==1:
+                s+=1
+                if s==k:
+                    return i
+        
+        return c
+
