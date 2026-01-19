@@ -1,5 +1,5 @@
 class Solution:
-    def countStudents(self, students: List[int], sandwiches: List[int]) -> int:
+    def countStudents(self, students, sandwiches) -> int:
         counts = [0, 0]
         for student in students:
             counts[student] += 1
