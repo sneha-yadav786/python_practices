@@ -1,5 +1,5 @@
 class Solution:
-    def sortByBits(self, arr: List[int]) -> List[int]:
+    def sortByBits(self, arr) :
         # Define a custom comparison key function for sorting
         def custom_sort_key(num):
             # Calculate the number of set bits (1s) in the binary representation of num
